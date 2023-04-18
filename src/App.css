@@ -1,0 +1,154 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  background-color: #373b69;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.movie {
+  width: 300px;
+  height: 180px;
+}
+.card-movie {
+  overflow: hidden;
+  position: relative;
+}
+.card{
+  padding-right: 100px;
+  margin-right: 55px;
+}
+.filter{
+  text-align: center;
+  font-size: 20px;
+  padding-bottom:30px;
+  padding-top: 30px;
+  background-color: #373b69;
+}
+.list{
+  text-align: center;
+}
+.image{text-align: center;
+  margin-right: 20px;
+
+}
+.title{
+  
+  color: #22254b;
+}
+
+.description {
+  
+  font-size: 18px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #22254b;
+  background-color: white;
+  padding: 1rem;
+}
+.rating{
+  color: red;
+  padding-bottom: 20px;
+}
+
+.add {
+  min-height: 50px ;
+  padding: 20px;
+  text-align: left;
+  margin: 5px 50px;
+  padding: 0 10px;
+}
+.btn-add {
+  background: #ddd;
+  color: #22254b;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 3px 7px;
+  
+}
+.btn-add:hover {
+  background: #16172c;
+  color: white;
+}
+
+.form-add {
+  position: relative;
+  height: 650px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #111220;
+  text-align: left;
+}
+.save-btn {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+}
+
+.movie-det a {
+  text-decoration: none;
+}
+
+.ContentModal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  
+}
+.ContentModal_about {
+  padding: 10px;
+  width: 95%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-evenly;
+  font-weight: 300;
+}
+
+.ContentModal_title {
+  height: 12%;
+  font-size: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContentModal_description {
+  display: flex;
+  height: 40%;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 5px #000000;
+  text-align: justify;
+}
+.poster {
+  height: 500px;
+  width: 650px;
+}
+
+.navlink {
+ 
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 360px)  { 
+.navbar{
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+}

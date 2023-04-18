@@ -1,0 +1,97 @@
+export const movieData = [
+    {
+        id: Math.random(),
+        title: 'Athena',
+        date: "2022",
+        type: "Action, Drama",
+        description: 'The tragic killing of a young boy ignites an all-out war in the community of Athena, with the victimi s older brothers at the heart of the conflict',
+        posterURL: 'https://m.media-amazon.com/images/M/MV5BNGY2OTg3ZjAtNTYyMC00MzAwLTg5NzEtZTdkNmFlMzA2ZGY5XkEyXkFqcGdeQXVyODA0MjgyNzM@._V1_.jpg',
+        videoURL:"I4Fr6xokozw",
+        rating: 6.4,
+    }, 
+      {
+        id: Math.random(),
+        title: 'Interstellar',
+        date: "2014",
+        type: "Science fiction",
+        description: 'A team of explorers travel through a wormhole in space in an attempt to ensure humanity is survival.',
+        posterURL: 'https://edu.inaf.it/wp-content/uploads/2021/02/interstellar-poster.jpg',
+        videoURL:"2LqzF5WauAw",
+        rating: 8.6,
+      },
+          
+      {
+        id: Math.random(),
+        title: 'Papillon',
+        date: "2017",
+        type: "Historical drama",
+        description: 'The story of Henri Charrière who was falsely imprisoned in 1933 in the notorious Devil Island penal colony.',
+        posterURL: 'https://upload.wikimedia.org/wikipedia/en/4/4e/Papillon_2018_poster.png',
+        videoURL:"xqj7XOv9mC8",
+        rating: 7.2,
+          },
+        
+          {
+            id: Math.random(),
+            title: 'Scream',
+            date: "1996",
+            type: "Horror",
+            description: 'A year after the murder of her mother, a teenage girl is terrorized by a masked killer who targets her and her friends by using scary movies as part of a deadly game.',
+            posterURL: 'https://resizing.flixster.com/KetwdTOMrmiHQPf3tcL8cLYKvG4=/206x305/v2/https://flxt.tmsimg.com/assets/p18852_p_v10_al.jpg',
+            videoURL:"i3J6ACKQ7K0",
+            rating: 4,
+          },
+          {
+            id: Math.random(),
+            title: 'The Godfather',
+            date: "1972",
+            type: "Crime",
+            description: 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.',
+            posterURL: 'https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg',
+            videoURL:"sY1S34973zA",
+            rating: 9.2,
+          },
+          {
+            id: Math.random(),
+            title: 'Bullet Train',
+            date: "2022",
+            type: "Action, Comedy",
+            description: 'It is an American action comedy film starring Brad Pitt as an assassin who must battle fellow killers while riding a bullet train.',
+            posterURL: 'https://www.sonypictures.com/sites/default/files/styles/max_560x840/public/title-key-art/bullettrain_onesheet_1400x2100_v4.jpg?itok=khOUNLFM',
+            videoURL:"0IOsk2Vlc4o",
+            rating: 7.3,
+          },
+          
+          {
+            id: Math.random(),
+            title: 'Me Before You',
+            date: "2016",
+            type: "Romantic drama",
+            description: 'Louisa Clark  moves from one job to the next to help her family. Her cheerful attitude is put to the test when she becomes a caregiver for Will Traynor.',
+            posterURL: 'https://m.media-amazon.com/images/M/MV5BMDk2NWMxNWQtMWIxMS00NjQ0LThkZGEtNDBlZDc3M2JlNjE0XkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_.jpg',
+            videoURL:"Eh993__rOxA",
+            rating: 4.1,
+          },
+          
+          {
+            id: Math.random(),
+            title: 'The Shawshank Redemption',
+            date: "1994",
+            type: "Drama",
+            description: 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.',
+            posterURL: 'https://m.media-amazon.com/images/I/71JxA6I+sgL._AC_SY300_SX300_.jpg',
+            videoURL:"6hB3S9bIaco",
+            rating: 9.3,
+          },
+          
+          {
+            id: Math.random(),
+            title:"We Can Be Heroes",
+            date: "2021",
+            type: "kids",
+            description: "When alien invaders kidnap Earth's superheroes, their children must team up and learn to work together if they are to save their parents and the world.", 
+            posterURL: "https://img8.cdn.cinoche.com/images/875ac46063a2601eff66d3c7a7290778.jpg", 
+            videoURL: "omn2PJEuOTw",
+            rating: 3
+        }
+    ]
